@@ -13,7 +13,7 @@ let age = 18
 let IsLoggedIn = false
 
 /*
-Data Types:-
+Data Types:-{Allhave their first letter capital during type conversion}
 1.number -> stores integer value till range (2^53) 
 2.bigint ->stores bigger number than number
 3.string -> strings container ""/''
