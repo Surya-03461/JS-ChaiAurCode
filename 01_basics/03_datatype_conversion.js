@@ -50,4 +50,17 @@ console.log(1 + "2") // "12"
 console.log("1" + 2 + 2) // "122"
 console.log(1 + 2 + "2") // "32"
 
-console.log()
+console.log((3+4)*5%3)
+
+console.log(+true)
+// console.log(true+);error
+console.log(+"");
+
+let num1,num2,num3;
+
+num1=num2=num3=5;
+console.log(num1,num2,num3) // 5 5 5
+
+let gameCounter = 100
+gameCounter++;// gameCounter = gameCounter + 1;++gameCounter;
+console.log(gameCounter) // 101
