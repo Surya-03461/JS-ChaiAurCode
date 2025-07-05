@@ -40,3 +40,28 @@ console.log(typeof myObj); //object-function
 console.log(typeof myfunction); //function
 
 //Almost all non-primitive data types are function-objects in JavaScript
+
+
+
+/* Stack and Heap Memory
+Primitive data types are stored in stack memory and are passed by value.
+Non-primitive data types are stored in heap memory and are passed by referance.*/
+
+//Pass By Value
+let myYoutubeChannel = 'CodeWithSuryansh';
+let myYoutubeChannel2 = myYoutubeChannel;
+myYoutubeChannel2 = 'CodeWithSuryansh2';
+console.log(myYoutubeChannel); //CodeWithSuryansh
+console.log(myYoutubeChannel2); //CodeWithSuryansh2
+
+//Pass By Reference
+const user = {
+    name: 'Suryansh',
+    age: 18
+};
+const user2 = user;
+
+user.name = 'Suryansh2';
+
+console.log(user.name); //Suryansh2
+console.log(user.name); //Suryansh2

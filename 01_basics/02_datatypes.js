@@ -19,7 +19,7 @@ Data Types:-{Allhave their first letter capital during type conversion}
 3.string -> strings container ""/''
 4.boolean -> true/false value container
 5.undefined -> shows that variable is only declared and not defined(not get a value) 
-6.none -> standalone value
+6.null -> standalone value
 7.symbol -> unique
 8.object
 */

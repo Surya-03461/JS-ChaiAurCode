@@ -62,5 +62,5 @@ num1=num2=num3=5;
 console.log(num1,num2,num3) // 5 5 5
 
 let gameCounter = 100
-gameCounter++;// gameCounter = gameCounter + 1;++gameCounter;
+gameCounter++;// gameCounter = gameCounter + 1;++gameCounter;//increament and decreament operator
 console.log(gameCounter) // 101
