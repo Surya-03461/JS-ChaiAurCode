@@ -25,6 +25,6 @@ Data Types:-{Allhave their first letter capital during type conversion}
 */
 
 console.log(typeof "Suryansh")//returns the datatype of the variable
-console.log(typeof age)
+console.log(typeof age)//number type
 console.log(typeof null)//object type
 console.log(typeof undefined)// undefined type

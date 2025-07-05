@@ -8,7 +8,7 @@ console.log(accountID)//used to display content on console(screen)
 console.table([accountID,account_Email,accountPassword])//used to display content on console(screen) in tabular form
 
 /* 
-We donot use var as keyword and datatype of any variable due to issue in dlock scope and functional scope
+We donot use var as keyword and datatype of any variable due to issue in block scope and functional scope
 */
 
 //updating variable's values
