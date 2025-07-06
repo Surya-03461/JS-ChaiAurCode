@@ -13,7 +13,7 @@ let age = 18
 let IsLoggedIn = false
 
 /*
-Data Types:-{Allhave their first letter capital during type conversion}
+Data Types:-{All have their first letter capital during type conversion}
 1.number -> stores integer value till range (2^53) 
 2.bigint ->stores bigger number than number
 3.string -> strings container ""/''
@@ -24,7 +24,7 @@ Data Types:-{Allhave their first letter capital during type conversion}
 8.object
 */
 
-console.log(typeof "Suryansh")//returns the datatype of the variable
+console.log(typeof "Suryansh")//returns the datatype of the variable(Strings)
 console.log(typeof age)//number type
 console.log(typeof null)//object type
 console.log(typeof undefined)// undefined type
