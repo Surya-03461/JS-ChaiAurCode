@@ -1,4 +1,4 @@
- //Primitive data types:-NUmber,String,BigInt,Boolean,Null,Undefined
+//Primitive data types:-Number,String,BigInt,Boolean,Null,Undefined
 
 const score = 100;
 const scoreValue = 100.2;
@@ -26,9 +26,7 @@ const myfunction = function() {
     console.log('Hello World');
 }
 
-
 //Important results
-
 console.log(typeof score); //number
 console.log(typeof scoreValue); //number
 console.log(typeof isLoggedIn); //boolean
@@ -40,7 +38,6 @@ console.log(typeof myObj); //object-function
 console.log(typeof myfunction); //function
 
 //Almost all non-primitive data types are function-objects in JavaScript
-
 
 
 /* Stack and Heap Memory
