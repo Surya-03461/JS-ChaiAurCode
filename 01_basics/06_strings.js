@@ -8,7 +8,7 @@ My name is Suryansh and I am 18 years old!
 */
 console.log(`My name is ${name} and I am ${age} years old!`);//this is a better practice and mostly used in projects development
 
-let string = new  String("Suryansh Sharma")//Another way to dfine a strings an objrct-class
+let string = new  String("Suryansh Sharma")//Another way to define a strings an object-class
 console.log(string);//[String: 'Suryansh Sharma']
 
 
