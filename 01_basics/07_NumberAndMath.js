@@ -9,6 +9,7 @@ const newScore = new Number(100)
 
 const Price = 123.8966
 //console.log(Price.toPrecision(4)) // 123.9
+//console.log(Price.toPrecision(3)) // 124
 
 const hundreds = 1000000
 //console.log(hundreds.toLocaleString()) // 1,000,000

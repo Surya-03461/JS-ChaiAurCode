@@ -28,13 +28,13 @@ console.log(newDate.getMinutes())// Get the current minutes
 console.log(newDate.getSeconds())// Get the current seconds
 
 
-newDate.toLocaleString('default',{//it customizes the date and time format
+//it customizes the date and time format
+newDate.toLocaleString('default',{         
     weekday: 'long', // 'short' for abbreviated day name
     year: 'numeric', // '2-digit' for two-digit year
     month: 'long', // 'short' for abbreviated month name
     day: 'numeric', // '2-digit' for two-digit day
     hour: '2-digit', // 'numeric' for unpadded hour
-    minute: '2-digit', // 'numeric' for unpadded minute
     second: '2-digit', // 'numeric' for unpadded second
     timeZoneName: 'short' // 'long' for full timezone name   
 })

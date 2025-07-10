@@ -6,7 +6,7 @@ console.log("My name is " + name + " and I am " + age + " years old.");//General
 My name is Suryansh and I am 18 years old.
 My name is Suryansh and I am 18 years old!
 */
-console.log(`My name is ${name} and I am ${age} years old!`);//this is a bteeter practice and mostly used in projects development
+console.log(`My name is ${name} and I am ${age} years old!`);//this is a better practice and mostly used in projects development
 
 let string = new  String("Suryansh Sharma")//Another way to dfine a strings an objrct-class
 console.log(string);//[String: 'Suryansh Sharma']
@@ -15,7 +15,7 @@ console.log(string);//[String: 'Suryansh Sharma']
 /*
 String {'Suryansh'}[Value in key-value pair format]
 0:"S"
-1: "u"
+1:"u"
 2:"r"
 3:"y"
 4:"a"
@@ -27,7 +27,7 @@ length:8
 
 const gameName = "GTA V"
 console.log(gameName.length);//5
-console.log(gameName[4]);//G
+console.log(gameName[4]);//V
 console.log(gameName.__proto__);//String.prototype
 
 console.log(gameName.toUpperCase());//GTA V
@@ -43,7 +43,7 @@ console.log(gameName.slice(-5,4));//GTA
 console.log(gameName.replace(' ','-'));//GTA-V
 
 let newStringOne = "     Suryansh      ";//whitespace at the start and end
-console.log(newStringOne);//     Suryansh
+console.log(newStringOne);//     Suryansh      
 console.log(newStringOne.trim());//Suryansh//removes all the whitespaces from start and end of a string.
 
 const url = "https://hitesh.com/hitesh%20choudhary%20channel";
