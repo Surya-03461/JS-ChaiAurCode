@@ -10,7 +10,7 @@ let MyDate = new Date(2025, 0 , 1)// January 1, 2025
 let MyDate2 = new Date(2025, 0 , 1 , 21 , 33)// January 1, 2025 at 21:33
 let MyDate3 = new Date("2025-07-09")// July 9, 2025
 let MyDate4 = new Date("07-09-2025")// July 7, 2025
-//console.log(MyDate4.toLocaleString())
+//console.log(MyDate4.toLocaleString())// "7/9/2025, 12:00:00 AM" (Date in local format)
 
 let timestamp = Date.now()
 //console.log(timestamp) // (1752077873806)Current timestamp from 1 Jan  1970 in milliseconds
