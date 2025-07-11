@@ -4,7 +4,7 @@ const dc_heros = ["flash","superman","batman"]//we can also take any data type i
 //marvel_heros.push(dc_heros)//recieves array dc_heros as a single element
 //console.log(marvel_heros)//[ 'thor', 'ironman', 'spiderman', [ 'flash', 'superman', 'batman' ] ]
 
-//const all_heroes = marvel_heros.concat(dc_heros)
+//const all_heroes = marvel_heros.concat(dc_heros)//concatenates the two arrays and returns a new array
 //console.log(all_heroes)//[ 'thor', 'ironman', 'spiderman', 'flash', 'superman', 'batman' ]
 
 
@@ -19,9 +19,9 @@ console.log(my_real_flat_arr_depth1)//[ 1, 2, 3, 4, 5, 6, 7, 6, 7, [ 4, 5 ] ]
 
 
 
-console.log(Array.isArray("Suryansh"))//false
+console.log(Array.isArray("Suryansh"))//false// checks if the given value is an array or not
 console.log(Array.from("Suryansh"))//true
-console.log(Array.from({name:"Suryansh"}))//returns empty array as it is defined that whom's array has to create : keys or values
+console.log(Array.from({name:"Suryansh"}))//returns empty array as it is not defined that whom's array has to create : keys or values
 
 let score1 = 100
 let score2 = 200

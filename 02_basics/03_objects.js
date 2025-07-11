@@ -29,6 +29,9 @@ JsUser.email = "suryansh@yahoo.com"//changes the email in the object
 JsUser.email = "suryansh@microsoft.com"//this will not change the email as the object is frozen
 //console.log(JsUser)
 
+//Functions can also be added to objects as methods
+//Methods are functions that are properties of an object.
+//They can be called using the dot or bracket notation, just like any other property.
 JsUser.greet = function(){
     console.log("Hello JS User!!")
 }
