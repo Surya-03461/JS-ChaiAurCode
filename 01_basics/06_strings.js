@@ -8,7 +8,7 @@ My name is Suryansh and I am 18 years old!
 */
 console.log(`My name is ${name} and I am ${age} years old!`);//this is a better practice and mostly used in projects development
 
-let string = new  String("Suryansh Sharma")//Another way to define a strings an object-class
+let string = new  String("Suryansh Sharma")//Another way to define strings as object-class
 console.log(string);//[String: 'Suryansh Sharma']
 
 
@@ -43,8 +43,8 @@ console.log(gameName.slice(-5,4));//GTA
 console.log(gameName.replace(' ','-'));//GTA-V
 
 let newStringOne = "     Suryansh      ";//whitespace at the start and end
-console.log(newStringOne);//     Suryansh      
-console.log(newStringOne.trim());//Suryansh//removes all the whitespaces from start and end of a string.
+console.log(newStringOne);//"     Suryansh      "
+console.log(newStringOne.trim());//"Suryansh"//removes all the whitespaces from start and end of a string.
 
 const url = "https://hitesh.com/hitesh%20choudhary%20channel";
 console.log(url.replace("%20", "-"));//https://hitesh.com/hitesh-choudhary//Replaces first occurance of the given substring.

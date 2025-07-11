@@ -1,7 +1,7 @@
 const score = 400
 //console.log(score)// 400
 
-const newScore = new Number(100)
+const newScore = new Number(100)// Creating a Number object
 //console.log(newScore)// [Number: 100]
 
 //console.log(newScore.toString().length) // 3
