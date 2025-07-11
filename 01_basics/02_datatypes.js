@@ -21,7 +21,7 @@ Data Types:-{All have their first letter capital during type conversion}
 5.undefined -> shows that variable is only declared and not defined(not get a value) 
 6.null -> standalone value
 7.symbol -> unique
-8.object
+8.object -> collection of key-value pairs
 */
 
 console.log(typeof "Suryansh")//returns the datatype of the variable(Strings)
