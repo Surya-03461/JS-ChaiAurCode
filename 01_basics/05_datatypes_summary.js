@@ -1,4 +1,4 @@
-//Primitive data types:-Number,String,BigInt,Boolean,Null,Undefined
+//Primitive data types:-Number,String,BigInt,Boolean,Null,Undefined,Symbol
 
 const score = 100;
 const scoreValue = 100.2;
