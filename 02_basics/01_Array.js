@@ -33,7 +33,7 @@ console.log(myArr)
 const newArr = [0,1,2,3,4,5,6]
 const jArr = newArr.join()//joins all elements of an array into a string with given separator
 console.log(typeof jArr) //string type
-console.log(jArr) //0,1,2,3,4,5,6
+console.log(jArr) //0,1,2,3,4,5,6//"0,1,2,3,4,5,6"
 
 
 //Slice and Splice
