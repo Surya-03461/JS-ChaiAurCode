@@ -5,7 +5,7 @@ const arr = [1,2,3,4,5]
 const arr2 = [1,'a',true,undefined,null,NaN]
 const Heroes = ["Shaktiman","Nagraaj"]
 
-const myArr = new Array(1,2,3,4,5,6)// Array constructor
+const myArr = new Array(1,2,3,4,5,6)// Array constructor(Array Object)
 
 console.log(myArr)
 console.log(myArr[2])
