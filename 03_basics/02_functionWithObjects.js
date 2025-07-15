@@ -35,6 +35,6 @@ handleObjects(user)// Username is Surya and price is undefined
 //Passing arrays to functions
 let MyArray = [10, 20, 30, 40];
 function getVal(arr){
-    return MyArray[2];//3rd value of array as 30 
+    return arr[2];//3rd value of array as 30 
 }
 console.log(getVal(MyArray)); // 30

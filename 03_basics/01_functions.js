@@ -22,7 +22,7 @@ console.log(result1);//undefined, because the function does not return anything
 
 function addNumbers (num1,num2){
     let res = num1 + num2;//Scope of 'res' is within the braces of function
-    return res;//terminates the function and return the value at functiion call position
+    return res;//terminates the function and return the value at function call position
 }
 
 const result = addTwoNumbers(10,20);//its scope is outside the function
@@ -46,13 +46,12 @@ console.log(UserNameMessage());//Please enter a username
 console.log(UserNameMessage("")); //undefined, because the function does not return anything
 
 //Default parameters
-
 function UserNameMessageWithDefault(username = "Surya"){
-    //This if block is not needed because we have set a default value for username
+    /*This if block is not needed because we have set a default value for username
     if (!username){
         console.log("Please enter a username");
         return;
-    }
+    }*/
     return `${username}, Welcome to the world of JavaScript`;
 }
 

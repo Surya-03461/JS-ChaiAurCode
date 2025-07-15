@@ -20,7 +20,7 @@ console.log(my_real_flat_arr_depth1)//[ 1, 2, 3, 4, 5, 6, 7, 6, 7, [ 4, 5 ] ]
 
 
 console.log(Array.isArray("Suryansh"))//false// checks if the given value is an array or not
-console.log(Array.from("Suryansh"))//true
+console.log(Array.from("Suryansh"))//[ 'S', 'u', 'r', 'y', 'a', 'n', 's', 'h' ]//converts the string to an array of characters
 console.log(Array.from({name:"Suryansh"}))//returns empty array as it is not defined that whom's array has to create : keys or values
 
 let score1 = 100
