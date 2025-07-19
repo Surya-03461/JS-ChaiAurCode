@@ -34,6 +34,7 @@ console.log(gameName.toUpperCase());//GTA V
 console.log(gameName.toLowerCase());//gta v
 console.log(gameName.indexOf("V"));//4
 console.log(gameName.charAt(0));//G  
+console.log(gameName)//GTA V
 
 const newString = gameName.substring(0,2);//GT 
 console.log(newString);//GT

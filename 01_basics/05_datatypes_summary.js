@@ -34,6 +34,7 @@ console.log(typeof outsideTemp); //object
 console.log(typeof userEmail); //undefined
 console.log(typeof id); //symbol
 console.log(typeof bigIntValue); //bigint
+console.log(typeof heroes); //object
 console.log(typeof myObj); //object-function
 console.log(typeof myfunction); //function
 
