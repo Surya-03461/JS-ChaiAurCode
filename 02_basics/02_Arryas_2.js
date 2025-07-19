@@ -1,5 +1,6 @@
 const marvel_heros = ["thor","ironman","spiderman"]
-const dc_heros = ["flash","superman","batman"]//we can also take any data type in array
+const dc_heros = ["flash","superman","batman"]
+//we can also take any data type in array
 
 //marvel_heros.push(dc_heros)//recieves array dc_heros as a single element
 //console.log(marvel_heros)//[ 'thor', 'ironman', 'spiderman', [ 'flash', 'superman', 'batman' ] ]

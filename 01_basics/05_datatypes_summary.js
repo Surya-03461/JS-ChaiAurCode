@@ -22,6 +22,7 @@ let myObj = {
     age:18
 }
 
+//Variable Function
 const myfunction = function() {
     console.log('Hello World');
 }
