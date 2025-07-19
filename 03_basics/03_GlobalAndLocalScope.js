@@ -1,6 +1,6 @@
 var c = 300
 
-if (true){
+if (true) {
     let a = 10
     const b = 30
     var c = 30 //c = 30
@@ -17,18 +17,60 @@ to perform actions and operations.
 
 //**********************************************************************************************************************
 let a = 100
-if (true){
+if (true) {
     let a = 10
     const b = 30
     var c = 30 //c = 30
-    console.log("Inner a : ",a)
+    console.log("Inner a : ", a)
 }
-console.log("Outer a : ",a)
+console.log("Outer a : ", a)
 
 
 //************************************************************************************************************************
-array = [1,2,3,4,5]
-for (let i=0; i<array.length; i++){
+array = [1, 2, 3, 4, 5]
+for (let i = 0; i < array.length; i++) {
     //scope of 'i' is only within function blocks {}
     console.log(array[i]);
+}
+
+//************************************************************************************************************************
+function One() {
+    let username = "Suryansh"
+
+    function Two() {
+        let website = "Chai Aur Code"
+        console.log(username)
+    }
+    //console.log(website);//Cannot access because it is block variable and can be accessed inside the function Two()
+    
+    Two()
+}
+
+One()
+
+//*************************************************************************************************************************
+if (true){
+    let username = "Suryansh"
+    if (username === "Suryansh"){
+        const website = " chai Aur code"
+        console.log(username + website)
+    }
+    // console.log(website);cannot be accessed as defined inside the condition block
+}
+//console.log(username);cannot be accessed as defined inside the condition block
+
+//****************************************Interesting**********************************************************************************
+//Different methods to declare functions and Their behaviour (Function Hoisting)
+
+
+addOne(5)//no error as we are only accessing their definition
+function addOne(num){
+    // return num + 1
+    console.log(num + 1)
+}
+
+//addTwo(4)//Error because calling or accesing variable(function) before declaration 
+const addTwo = function(num){
+    //return num + 2
+    console.log(num + 2)
 }
