@@ -38,3 +38,5 @@ newDate.toLocaleString('default',{
     second: '2-digit', // 'numeric' for unpadded second
     timeZoneName: 'short' // 'long' for full timezone name   
 })
+
+console.log(newDate.getDay())
