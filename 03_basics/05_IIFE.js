@@ -2,7 +2,7 @@
 
 (function chai(){
     console.log("DB Connected")
-})();
+})();//semicolon to stop the flow of function
 
 ( ()=>{
     console.log("DB Connected Again")

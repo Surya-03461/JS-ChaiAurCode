@@ -43,7 +43,8 @@ function UserNameMessage(username){
 
 console.log(UserNameMessage("Suryansh"));//Suryansh, Welcome to the world of JavaScript
 console.log(UserNameMessage());//Please enter a username
-console.log(UserNameMessage("")); //undefined, because the function does not return anything
+console.log(UserNameMessage(""));//Please enter a username
+//undefined, because the function does not return anything
 
 //Default parameters
 function UserNameMessageWithDefault(username = "Surya"){

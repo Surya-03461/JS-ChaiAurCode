@@ -1,5 +1,5 @@
 //Dates
- let myDate = new Date()
+let myDate = new Date()
 // console.log(myDate.toString()) // Current date and time
 // console.log(myDate.toDateString()) // Current date
 // console.log(myDate.toLocaleString()) // Current date and time in local format
