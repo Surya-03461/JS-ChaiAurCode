@@ -36,7 +36,7 @@ console.log(gameName.indexOf("V"));//4
 console.log(gameName.charAt(0));//G  
 console.log(gameName)//GTA V
 
-const newString = gameName.substring(0,2);//GT 
+const newString = gameName.substring(0,2);
 console.log(newString);//GT
 
 console.log(gameName.slice(0,2));//GT

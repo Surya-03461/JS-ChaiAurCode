@@ -12,7 +12,7 @@ We donot use var as keyword and datatype of any variable due to issue in block s
 */
 
 //updating variable's values
-//accountID = 216427//error as we cannot change value of const variable
+//accountID = 216427//error as we cannot change value of constant
 account_Email = "surya@gmail.com"
 accountPassword = "22211212"
 

@@ -24,7 +24,7 @@ Data Types:-{All have their first letter capital during type conversion}
 8.object -> collection of key-value pairs
 */
 
-console.log(typeof "Suryansh")//returns the datatype of the variable(Strings)
+console.log(typeof "Suryansh")//returns the datatype of the variable(strings)
 console.log(typeof age)//number type
 console.log(typeof null)//object type
 console.log(typeof undefined)// undefined type

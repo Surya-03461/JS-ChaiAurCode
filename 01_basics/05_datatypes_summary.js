@@ -9,6 +9,7 @@ const id = Symbol('123');
 const anotherid = Symbol('123');
 console.log(id);
 console.log(anotherid);
+console.log(id == anotherid)//false
 console.log(id === anotherid); //false
 const BigNUmber = 1132545645824437832964843n
 console.log(typeof BigNUmber);
@@ -63,4 +64,4 @@ const user2 = user;
 user.name = 'Suryansh2';
 
 console.log(user.name); //Suryansh2
-console.log(user.name); //Suryansh2
+console.log(user2.name); //Suryansh2
