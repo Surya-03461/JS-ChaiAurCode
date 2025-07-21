@@ -33,9 +33,10 @@ console.log(this)//{};because there is no context(object) present in global scop
 //********************************************************************************************************************
 function chai(){
     let username = "chai"
+    console.log(username)//chai
     console.log(this.username)//{}
 }
-chai()//this keyword is only used with objects not with functions  directly and if used then syntax is different
+chai()//this keyword is only used with objects not with functions
 
 
 //************************************************************************************************************

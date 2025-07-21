@@ -21,7 +21,7 @@ if (true) {
 
 // console.log(a);a cannot be accessed here as its scope is within if condition block i.e. local scope(block scope)
 // console.log(b);b cannot be accessed here as its scope is within if condition block i.e. local scope(block scope)
-console.log(c);//30;due t oglobal scope
+console.log(c);//30;due to global scope
 
 /*For above reason, we generally donot use var as declaration of variables in project development because
 there are many function defined inside a program and every function may have same variables inside it
@@ -83,9 +83,11 @@ function addOne(num){
     // return num + 1
     console.log(num + 1)
 }
+//addOne(4)//5
 
 //addTwo(4)//Error because calling or accesing variable(function) before declaration 
 const addTwo = function(num){
     //return num + 2
     console.log(num + 2)
 }
+// addTwo(4)//6
