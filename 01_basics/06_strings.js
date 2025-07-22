@@ -13,7 +13,7 @@ console.log(string);//[String: 'Suryansh Sharma']
 
 
 /*
-String {'Suryansh'}[Value in key-value pair format]
+String {'Suryansh'}[Element stored in key-value pair format]
 0:"S"
 1:"u"
 2:"r"

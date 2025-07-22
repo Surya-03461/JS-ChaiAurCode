@@ -4,7 +4,7 @@ const isLoggedIn = true
 if (isLoggedIn){
     console.log("User Logged In Successfully !!")//User Logged In Successfully !!
 }
-//BUt if it is false then nothing will be displayed
+//But if it is false then nothing will be displayed
 
 //****************************************************************************************
 //Here relational operators come into play.[<,<=,>,>=,!=,==,!==,===]
@@ -43,7 +43,7 @@ const balance = 1000
 
 if (balance > 500) console.log("Active Account")//Active account
 
-/*It i snot good practice to write code in this way
+/*It is not good practice to write code in this way
 if (balance > 500) console.log("Active Account"),console.log("tested")
 ->Active Account
 ->tested
@@ -74,6 +74,7 @@ const DebitCard = true
 let GoogleLogin = false
 let EmailLogin = true
 
+//(&&) operator checks if all conditions are true or not
 /*if (loggedIn && DebitCard && 2==2){//this will be executed
     console.log("Allow to buy courses.")
 }
@@ -91,7 +92,3 @@ if (GoogleLogin || EmailLogin){
 Logical Operators:-Used to evaluate multiple condition within if block  
 &&,||,!
 */
-
-
-//***********************************************************************************
-
